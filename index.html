@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortanas | Türkiye'nin Lider Yapay Zeka Otomasyon Şirketi</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Mortanas, Türkiye'nin lider yapay zeka otomasyon şirketidir. Müşteri hizmetleri, pazarlama ve satış süreçlerinizi dönüştüren akıllı otomasyon ve yazılım çözümleriyle verimliliğinizi artırın. Dijital dönüşüme bizimle adım atın." />
+    <meta name="keywords" content="yapay zeka şirketi, yapay zeka otomasyon, ai otomasyon, mortanas, yapay zeka firması, türkiye yapay zeka, akıllı otomasyon, dijital dönüşüm, yapay zeka yazılımı, chatbot, sesli asistan, crm çözümleri, ai" />
+    <meta name="author" content="Mortanas Company" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mortanas.com" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="Mortanas | Türkiye'nin Lider Yapay Zeka Otomasyon Şirketi" />
+    <meta property="og:description" content="İşletmenizin müşteri hizmetleri, pazarlama ve satış süreçlerini akıllı yapay zeka otomasyonları ile güçlendirin. Türkiye'nin lider yapay zeka firması." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mortanas.com" />
+    <meta property="og:image" content="https://i.imgur.com/G5g2fA1.png" />
+    <meta property="og:site_name" content="Mortanas" />
+    <meta property="og:locale" content="tr_TR" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mortanas | Türkiye'nin Lider Yapay Zeka Otomasyon Şirketi" />
+    <meta name="twitter:description" content="İşletmenizin müşteri hizmetleri, pazarlama ve satış süreçlerini akıllı yapay zeka otomasyonları ile güçlendirin." />
+    <meta name="twitter:image" content="https://i.imgur.com/G5g2fA1.png" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { top: 0px !important; }
+      .goog-te-banner-frame.skiptranslate { display: none !important; }
+      .skiptranslate { display: none !important; }
+      #google_translate_element { display: none !important; }
+      @keyframes fade-in-up {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fade-in-up 0.5s ease-out forwards;
+      }
+      @keyframes background-pan {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .animated-gradient-background {
+        background: linear-gradient(90deg, #0f172a, #1e3a8a, #0f172a);
+        background-size: 200% 200%;
+        animation: background-pan 15s ease-in-out infinite;
+      }
+      .background-grid {
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+        background-size: 4rem 4rem;
+      }
+      @keyframes scroll-logos {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .animate-scroll-logos {
+        animation: scroll-logos 40s linear infinite;
+      }
+      .logo-scroller:hover .animate-scroll-logos {
+        animation-play-state: paused;
+      }
+    </style>
+    
+    <!-- Import Map -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+        "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+        "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1"
+      }
+    }
+    </script>
+    
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'tr', autoDisplay: false}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Stripe.js -->
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Mortanas Company",
+      "alternateName": "Mortanas Yapay Zeka Otomasyon",
+      "url": "https://mortanas.com",
+      "logo": "https://i.imgur.com/G5g2fA1.png",
+      "description": "Mortanas, Türkiye'nin lider yapay zeka otomasyon şirketidir. Müşteri hizmetleri, pazarlama ve satış süreçlerinizi dönüştüren akıllı otomasyon ve yazılım çözümleriyle verimliliğinizi artırın.",
+      "foundingDate": "2020",
+      "founder": {
+        "@type": "Person",
+        "name": "Eren Talha Altun"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Söğütözü Koç Kuleleri No:2",
+        "addressLocality": "Ankara",
+        "postalCode": "06510",
+        "addressCountry": "TR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+90-554-011-8888",
+        "contactType": "customer service",
+        "email": "info@mortanas.com",
+        "areaServed": "TR",
+        "availableLanguage": ["Turkish", "English"]
+      },
+      "sameAs": [
+        "https://linkedin.com/in/mortanascompany",
+        "http://instagram.com/MortanasCompany",
+        "https://x.com/mortanascompany",
+        "https://www.youtube.com/@Mortanascompany"
+      ],
+      "serviceType": "Yapay Zeka Otomasyon Çözümleri"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://mortanas.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://mortanas.com/#/arama?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900">
+    <div id="google_translate_element" style="display: none;"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
